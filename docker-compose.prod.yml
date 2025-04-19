@@ -2,8 +2,7 @@ version: "3.8"
 
 services:
   pyrestmutex:
-    build: .
-    container_name: pyrestmutex
+    image: dtsurk0v/pyrestmutex:latest
     ports:
       - "3114:8000"
     volumes:

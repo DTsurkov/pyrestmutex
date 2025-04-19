@@ -6,7 +6,7 @@ $TotalThreads = 10
     $TTL = 100
     $TimeoutSec = 30
     $SleepTimeSec = 2
-    $UrlBase = "http://localhost:8000"
+    $UrlBase = "http://localhost:3114"
 
     function Wait-For-Lock {
         param (
