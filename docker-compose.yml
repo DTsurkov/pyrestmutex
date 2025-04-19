@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  pyrestmutex:
+    build: .
+    container_name: pyrestmutex
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DB_PATH=/app/data/locks.db

@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+input,
+button {
+    padding: 4px;
+    font-size: 14px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.ttl-bar {
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 3px;
+}
+
+.row-green {
+    background-color: #e7fbe7;
+}
+
+.row-yellow {
+    background-color: #fffde7;
+}
+
+.row-red {
+    background-color: #fdecea;
+}
